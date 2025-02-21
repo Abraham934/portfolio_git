@@ -1,0 +1,375 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    background-color: #333;
+}
+
+.navbar li {
+    display: inline;  
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+    padding: 10px 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #007BFF; 
+}
+
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+    color: beige;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+h1, h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: medium;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+
+th {
+    background-color: #333;
+    color: white;  
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;  
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+td {
+    font-size: 1em;
+    color: #555;
+}
+
+td strong {
+    color: #333;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+.content {
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+
+.content:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+
+h1, h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    animation: glowing-text 1.5s ease-in-out infinite alternate;
+
+    }
+
+
+@keyframes glowing-text {
+    0% {
+        text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+    }
+    50% {
+        text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    }
+    100% {
+        text-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 45px #ff00ff;
+    }
+}
+
+
+h1:hover, h2:hover {
+    color: #007BFF;
+    text-shadow: 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+}
+
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #007BFF;
+}
+
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #007BFF;
+}
+
+/* Appliquer la police Roboto à tout le corps de la page */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style de la section */
+#work {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des éléments de liste */
+ul {
+    list-style-type: none;  /* Enlever les puces */
+    padding-left: 0;
+}
+
+li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 8px; /* Réduit l'espace entre les éléments de la liste */
+}
+
+li strong {
+    color: #007BFF;  /* Une couleur bleue pour le texte en gras */
+    font-size: 1.2em; /* Augmenter légèrement la taille du texte en gras */
+}
+
+/* Style du titre de la section */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Style général pour le formulaire */
+form {
+    width: 60%;  /* Réduit la largeur du formulaire */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des champs de saisie et du textarea */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;  /* Utilise 100% de la largeur du formulaire pour les champs */
+    padding: 8px;  /* Réduit l'espace interne pour rendre les champs plus compacts */
+    margin-bottom: 10px;  /* Ajoute un petit espace sous chaque champ */
+    border: 1px solid #ccc;  /* Ajoute une bordure fine et discrète */
+    border-radius: 4px;  /* Coins arrondis */
+    font-size: 1em;  /* Taille de texte plus petite */
+}
+
+/* Réduit la hauteur du champ textarea */
+textarea {
+    height: 100px;  /* Ajuste la hauteur du textarea */
+}
+
+/* Style du bouton de soumission */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%; /* Prend toute la largeur de son parent */
+}
+
+/* Effet au survol pour le bouton */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
